@@ -1,0 +1,54 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a pleasant background and default font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the main game container */
+#game-container {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for buttons */
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #game-container {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
